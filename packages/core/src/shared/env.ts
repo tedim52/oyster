@@ -9,6 +9,7 @@ export const ENV = {
   AIRMEET_ACCESS_KEY: process.env.AIRMEET_ACCESS_KEY as string,
   AIRMEET_SECRET_KEY: process.env.AIRMEET_SECRET_KEY as string,
   API_URL: process.env.API_URL as string,
+  DATABASE_URL: process.env.DATABASE_URL as string,
   ENVIRONMENT: process.env.ENVIRONMENT as Environment,
   GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID as string,
   GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET as string,

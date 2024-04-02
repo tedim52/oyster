@@ -9,7 +9,7 @@
     "build": "remix vite:build",
     "dev": "remix vite:dev",
     "lint": "tsc --noEmit",
-    "start": "remix-serve ./build/server/index.js"
+    "start": "PORT=4000 remix-serve ./build/server/index.js"
   },
   "dependencies": {
     "@oyster/core": "*",

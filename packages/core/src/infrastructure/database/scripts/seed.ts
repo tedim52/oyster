@@ -12,7 +12,7 @@ if (ENV.ENVIRONMENT !== 'development') {
 
 const db = createDatabaseConnection();
 
-let email = '';
+let email = 'tedi.m52@gmail.com';
 
 async function main() {
   try {
@@ -136,10 +136,11 @@ async function seed() {
 }
 
 async function setEmailFromCommandLine() {
-  const answer = await question(
-    'In order to log into the Member Profile and Admin Dashboard, you will need both a member record and an admin record. Please provide an email so we can create those for you.\n' +
-      'Email: '
-  );
+  // const answer = await question(
+  //   'In order to log into the Member Profile and Admin Dashboard, you will need both a member record and an admin record. Please provide an email so we can create those for you.\n' +
+  //     'Email: '
+  // );
+  const answer = "oyster@colorstack.org"
 
   const result = z
     .string()
